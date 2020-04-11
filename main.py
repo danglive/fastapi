@@ -9,9 +9,6 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message":"Hello TutLinks.com"}
-def show():
-    im=cv2.imread('image0.png')
-    plt.imshow(im)
-    return 
+    return {"message":"Hello tuan.com"}
+
     
