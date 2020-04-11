@@ -1,4 +1,6 @@
 from fastapi import FastAPI
+import cv2
+from matplotlib import pyplot as plt
 
 app = FastAPI()
 
@@ -8,3 +10,8 @@ app = FastAPI()
 @app.get("/")
 def home():
     return {"message":"Hello TutLinks.com"}
+def show():
+    im=cv2.imread('image0.png')
+    plt.imshow('im)
+    return 
+    
